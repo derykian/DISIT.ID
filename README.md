@@ -26,7 +26,7 @@ Kebutuhan non-fungsional mendefinisikan batasan kualitas, performa, dan antarmuk
 * **Performa Kecepatan:** Waktu tunggu pemrosesan aksi tambah keranjang belanja dan *render* halaman di browser harus di bawah 2 detik.
 * **Keamanan Data:** Kata sandi pengguna wajib dienkripsi dengan algoritma bawaan Laravel (*Bcrypt*) dan pengiriman form dilindungi dari serangan *Cross-Site Request Forgery* via token `@csrf`.
 * **Ketersediaan Dokumen:** Repositori GitHub proyek harus selalu diperbarui dengan pesan komit (*commit history*) yang jelas pada setiap tahapan pertemuan.
-* **Ketersediaan Dokumen:** Menambahkan waktu pada saat upload bukti pembayaran pada sisi user.
+* **Bukti Pembayaran:** Menambahkan waktu pada saat upload bukti pembayaran pada sisi user.
 * **Ketersediaan stok:** Menambahkan sisa stok dan sudah terjual berapa pada sisi user. 
 
 ---
