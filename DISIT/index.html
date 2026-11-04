@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="DISIT.ID — distro pakaian lokal: kaos oversize, hoodie, dan tas untuk keseharianmu." />
+    <title>DISIT.ID — Distro Pakaian Lokal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet" />
+    <script type="module" src="/src/main.js"></script>
+  </head>
+  <body>
+    <header class="nav">
+      <a href="#" class="logo">DISIT<span>.ID</span></a>
+      <nav>
+        <a href="#koleksi">Koleksi</a>
+        <a href="#cara-belanja">Cara Belanja</a>
+        <a href="#kontak">Kontak</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <p class="tag">Drop terbaru — Musim 2026</p>
+        <h1>Pakai<br />yang <em>beda.</em></h1>
+        <p class="lead">Distro pakaian lokal untuk kamu yang nggak mau seragam. Kaos oversize, hoodie, dan tas dengan bahan tebal dan potongan yang pas.</p>
+        <a href="#koleksi" class="btn">Lihat Koleksi →</a>
+        <div class="marquee" aria-hidden="true">
+          <div>KAOS OVERSIZE ✦ HOODIE ✦ TAS ✦ LOKAL ✦ KAOS OVERSIZE ✦ HOODIE ✦ TAS ✦ LOKAL ✦&nbsp;</div>
+          <div>KAOS OVERSIZE ✦ HOODIE ✦ TAS ✦ LOKAL ✦ KAOS OVERSIZE ✦ HOODIE ✦ TAS ✦ LOKAL ✦&nbsp;</div>
+        </div>
+      </section>
+
+      <section id="koleksi" class="section">
+        <div class="section-head">
+          <h2>Koleksi</h2>
+          <div class="filters" role="tablist">
+            <button class="chip active" data-filter="semua">Semua</button>
+            <button class="chip" data-filter="kaos">Kaos</button>
+            <button class="chip" data-filter="hoodie">Hoodie</button>
+            <button class="chip" data-filter="tas">Tas</button>
+          </div>
+        </div>
+        <div id="products" class="grid"></div>
+      </section>
+
+      <section id="cara-belanja" class="section steps">
+        <h2>Cara Belanja</h2>
+        <ol>
+          <li><strong>Pilih produk</strong><span>Tentukan ukuran (S/M/L/XL) dan warna favoritmu.</span></li>
+          <li><strong>Pesan via WhatsApp</strong><span>Kirim pesanan, kami konfirmasi stok dan ongkir.</span></li>
+          <li><strong>Bayar</strong><span>Transfer BCA, Mandiri, atau QRIS, lalu kirim bukti pembayaran.</span></li>
+          <li><strong>Terima paket</strong><span>Pesanan dikirim setelah pembayaran diverifikasi.</span></li>
+        </ol>
+      </section>
+    </main>
+
+    <footer id="kontak" class="footer">
+      <div>
+        <a href="#" class="logo">DISIT<span>.ID</span></a>
+        <p>Website penjualan pakaian distro.</p>
+      </div>
+      <div class="contact">
+        <a href="https://github.com/derykian/DISIT.ID" target="_blank" rel="noopener">GitHub</a>
+        <span>© <span id="year"></span> DISIT.ID</span>
+      </div>
+    </footer>
+  </body>
+</html>
